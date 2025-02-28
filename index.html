@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/e7b092d794.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <!-- homepage -->
+    <div class="home-container" id="sectionHomepage">
+        <nav class="sm-nav-container">
+            <div class="header-cont">
+                <a href="#sectionHomepage" style="text-decoration: none;color: inherit;"><h2 class="logo-title">M.Manish</h2></a>
+                <div class="menu-icon-cont">
+                    <button id="dark-light-button" onclick="darkLightMode()">
+                        <i class="fa-solid fa-moon bgt-icon"></i>
+                        <!-- <svg class="w-[48px] h-[48px] text-gray-800 dark:text-white bgt-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M12 5V3m0 18v-2M7.05 7.05 5.636 5.636m12.728 12.728L16.95 16.95M5 12H3m18 0h-2M7.05 16.95l-1.414 1.414M18.364 5.636 16.95 7.05M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+                        </svg> -->
+                    </button>
+                    
+                    
+                      <!-- <i class="bi bi-moon"></i>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                      </svg> -->
+                      
+                    <!-- <i class="bi bi-brightness-high bgt-icon"></i> -->
+                    <!-- <i class="fa-solid fa-brightness bgt-icon"></i> -->
+                    <button class="nav-button" onclick="navbarIconClick()">
+                        <i class="fa-solid fa-bars nav-icon-button"></i>
+                    </button>
+                </div>
+            </div>
+            <br />
+            <div id="sm-nav-links">
+                <li class="sm-nav-link"><a href="#sectionHomepage" id="sectionHome">Home</a></li>
+                <li class="sm-nav-link"><a href="#sectionEducationpage" id="sectionEducation">Education</a></li>
+                <li class="sm-nav-link"><a href="#sectionProjectspage" id="sectionProjects">MyProjects</a></li>
+                <li class="sm-nav-link"><a href="#sectionCertificatepage" id="sectionCertificate">Certifications</a></li>
+                <li class="sm-nav-link"><a href="#sectionContactpage" id="sectionContact">Contact me</a></li>
+            </div>
+        </nav>
+        <nav class="bg-nav-container">
+            <a href="#sectionHomepage" style="text-decoration: none;color: inherit;"><h2 class="logo-title">M.Manish</h2></a>
+            <ul class="nav-links">
+                <li class="nav-link"><a href="#sectionHomepage" id="sectionHome">Home</a></li>
+                <li class="nav-link"><a href="#sectionEducationpage" id="sectionEducation">Education</a></li>
+                <li class="nav-link"><a href="#sectionProjectspage" id="sectionProjects">MyProjects</a></li>
+                <li class="nav-link"><a href="#sectionCertificatepage" id="sectionCertificate">Certifications</a></li>
+                <li class="nav-link"><a href="#sectionContactpage" id="sectionContact">Contact me</a></li>
+            </ul>
+            <button id="dark-light-button" onclick="darkLightMode()">
+                <i class="fa-solid fa-moon bgt-icon"></i>
+                <!-- <svg class="w-[48px] h-[48px] text-gray-800 dark:text-white bgt-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M12 5V3m0 18v-2M7.05 7.05 5.636 5.636m12.728 12.728L16.95 16.95M5 12H3m18 0h-2M7.05 16.95l-1.414 1.414M18.364 5.636 16.95 7.05M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+                </svg> -->
+            </button>
+        </nav>
+        <div class="home-page-content-cont" id="sectionHomepage">
+            <div class="intro-container">
+                <div class="intro-inner-cont">
+                    <h1 class="role-desp">Hi,&#128075 I'm Manish.</h1>
+                    <p class="profile-desp">A passionate Front-end Developer. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive, interactive designs that provide seamless user experiences across all devices.</p>
+                    <button type="button" id="getStarted-button">
+                        <a href="#sectionEducationpage" id="getstarted-link">Get Started</a>
+                    </button>
+                </div>
+                <div class="profile-pic-cont">
+                    <img src="/profile-pic.jpg" draggable="false" class="profile-pic"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-cont" />
+    <div class="education-bg-container" id="sectionEducationpage">
+        <h1 class="education-heading">Education</h1>
+        <div class="education-container">
+            <br/>
+            <div class="degree-cont">
+                <h1 class="degree-heading">
+                    Bachelor of technology
+                </h1>
+                <p class="degree-para">I studied at College Aditya College of Engineering and Technology from 2019 to 2023, with a focus on the Electronics and Communication Engineering branch. During my time there, I gained valuable knowledge and skills, achieving a percentage of 61.02%. The curriculum equipped me with theoretical foundations and practical experiences that deepened my understanding of the subject. Overall, my time at College significantly shaped my academic and professional journey.</p>
+            </div>
+            <div class="inter-cont">
+                <h1 class="inter-heading">Intermediate</h1>
+                <p class="inter-para">I successfully completed my intermediate education at Tirumala Junior College from 2017 to 2019. During this time, I focused on the M.P.C branch, where I earned a commendable overall CGPA of 9.25. This academic experience provided me with a strong foundation in my field and equipped me with essential skills and knowledge for future endeavors.
+                </p>
+            </div>
+            <div class="ssc-cont">
+                <h1 class="ssc-heading">SSC</h1>
+                <p class="ssc-para">I successfully completed my Secondary School Certificate (SSC) at Sri Sadguru Vidyalayam School. Throughout my studies, I demonstrated dedication and commitment, achieving an overall Cumulative Grade Point Average (CGPA) of 9.0 This accomplishment reflects my hard work and the support I received from my teachers and peers during my time at the school.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-cont" />
+    <div class="projects-bg-container" id="sectionProjectspage">
+        <h1 class="myprojects-heading">My Projects</h1>
+        <div class="projects-container">
+            <div class="todo-container">
+                <img src="https://i.postimg.cc/K8qL5QNV/image.png" id="todo-img" alt="todo-img"/>
+                <div class="project-heading-cont">
+                    <h2 id="todo-heading">Todos Application</h2>
+                    <a href="https://manish123todos.ccbp.tech/" target="_blank" class="project-link">Project Link</a>
+                </div>
+                <p class="technologies-used-element">Technologies used :<span> HTML, CSS, JS, Bootstrap</span></p>
+                <ul class="project-desp">A comprehensive todo management tool designed to enhance productivity.
+                    User-friendly interface with HTML, CSS, and Bootstrap for ease of use.
+                    <li>Effortless task management through JavaScript-based CRUD operations
+                    with dynamic UI updates.</li>
+                    <li>Your tasks are always safe with local storage methods to ensure task
+                    persistence.</li>
+                </ul>
+            </div>
+
+            <div class="covid-container">
+                <img src="https://i.postimg.cc/qqdDVVG4/image.png" id="covid-img" alt="covid-img"/>
+                <div class="project-heading-cont">
+                    <h2 id="covid-heading">Covid Dashboard</h2>
+                    <a href="http://manish123covid.ccbp.tech/" target="_blank" class="project-link">Project Link</a>
+                </div>
+                <p class="technologies-used-element">Technologies used :<span> HTML, CSS, JavaScript, React JS, Recharts, Figma</span></p>
+                <ul class="project-desp">Created a user-friendly platform to monitor Covid-19 cases in India state-wise
+                    <li>Implemented smooth navigation with React Router components Route,
+                        Switch, Link.</li>
+                    <li>Visualized data with interactive bar and line charts powered by Recharts.</li>
+                    <li>Brought design to life with Figma mockups and precision-crafted React
+                        components.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="jobby-container">
+                <img src="https://i.postimg.cc/Kvd4Mt2K/image.png" id="jobby-img" alt="jobby-img"/>
+                <div class="project-heading-cont">
+                    <h2 id="covid-heading">Jobby App</h2>
+                    <a href="https://manish123jobby.ccbp.tech/" target="_blank" class="project-link">Project Link</a>
+                </div>
+                <p class="technologies-used-element">Technologies used :<span>React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local
+                    Storage, JWT Token, Authorization, Authentication</span></p>
+                <ul class="project-desp">Implemented Jobby App where users can log in and can see a list of jobs with
+                    search by Job title, filters based on Salary range and Employment type, etc                    
+                    <li> Implemented different pages like Login, Home, Jobs, Job item details
+                        using React components, props, state, lists, event handlers, form inputs.
+                        </li>
+                    <li>Authenticating by taking username, password and doing login post HTTP
+                        API Call.
+                        </li>
+                    <li>Persisted user login state by keeping jwt token in client storage, Sending
+                        it in headers of further API calls to authorize the user
+                    </li>
+                    <li>Implemented different routes for Login, Home, Jobs, Job item details
+                        pages by using React Router components Route, Switch, Link.
+                        </li>
+                </ul>
+            </div>
+            
+            <div class="bookhub-container">
+                <img src="https://i.postimg.cc/QNJm8gRq/image.png" id="bookhub-img" alt="bookhub-img"/>
+                <div class="project-heading-cont">
+                    <h2 id="bookhub-heading">Book Hub</h2>
+                    <a href="https://manishbookhub.ccbp.tech/login" target="_blank" class="project-link">Project Link</a>
+                </div>
+                <p class="technologies-used-element">Technologies used :<span>React JS, JS, CSS, Routing, REST API Calls, Local
+                    Storage, JWT Token, Authorization, Authentication</span></p>
+                <ul class="project-desp">Implemented Bookhub website where users can log in and can see a list of books with
+                    search by Book title, filters based on category               
+                    <li> Implemented different pages like Login, Home, Bookshelves, MyFavorites
+                        using React components, props, state, lists, event handlers, form inputs.
+                        </li>
+                    <li>Authenticating by taking username, password and doing login post HTTP
+                        API Call.
+                        </li>
+                    <li>Persisted user login state by keeping jwt token in client storage, Sending
+                        it in headers of further API calls to authorize the user
+                    </li>
+                    <li>Redirecting to the login page if the user tries to open Home, Jobs, Job
+                    item details routes which need authentication by implementing protected
+                    Route.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-cont" />
+    <div class="certificate-bg-container" id="sectionCertificatepage">
+        <h1 class="certificate-heading">Certifications</h1>
+        <div class="certificate-container">
+            <div class="mta-python">
+                <h2 class="mta-python-heading">MTA-Python</h2>
+            </div>
+            <div class="cybersecurity-intro">
+                <h2 class="cybersecurity-heading">Introduction to Cybersecurity</h2>
+            </div>
+            <div class="cybersecurity-essentials">
+                <h2 class="cybersecurity-essentials-heading">Cybersecurity Essentials</h2>
+            </div>
+            <div class="cyberops-associate">
+                <h2 class="cyberops-heading">CyberOps Associate</h2>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-cont" />
+    <div class="tech-stack-container">
+        <h3 class="tech-stack-heading">Tech Stack </h3>
+        <div class="skills-cont">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" class="html-img" alt="html-img"/>
+            <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" class="css-img" alt="css-img"/>
+            <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" class="js-img" alt="js-img"/>
+            <img src="https://shorturl.at/8xztm" class="reactjs-img" alt="reactjs-img"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" class="bootstrap-img" alt="bootstrap-img"/>
+            <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" class="python-img" alt="python-img"/>
+            <img src="https://cdn-icons-png.flaticon.com/128/226/226777.png" class="java-img" alt="java-img"/>
+            <img src="https://cdn-icons-png.freepik.com/256/4248/4248443.png?uid=R176336078&ga=GA1.1.1815257761.1732698695&semt=ais_hybrid" class="sql-img" alt="sql-img"/>
+        </div>
+    </div>
+    <hr class="hr-cont" />
+    <div class="contact-cont" id="sectionContactpage">
+        <div class="contact-img-cont">
+            <a href="#">
+                <div class="insta-cont">
+                    <i class="insta-icon fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="whatsapp-cont">
+                    <i class="whatsapp-icon fa-brands fa-whatsapp"></i>
+                    <p>Whatsapp</p>
+                </div>
+            </a>
+            <a href="mailto:mallolumanishbabu@gmail.com" target="_blank">
+                <div class="gmail-cont">    
+                    <i class="gmail-icon fa-regular fa-envelope"></i>
+                    <p>Gmail</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript" src="/config.js"></script>
+</body>
+</html>
